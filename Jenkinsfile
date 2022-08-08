@@ -7,7 +7,7 @@ pipeline {
         AWS_SECRET_ACCESS_KEY = credentials('ahmed-aws-secret-access-key')
 
         AWS_S3_BUCKET = "ahmed-belt2d2-artifacts-123456"
-        ARTIFACT_NAME = "hello-world.jar"
+        ARTIFACT_NAME = "hello-world.war"
         AWS_EB_APP_NAME = "java-app1"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
         AWS_EB_ENVIRONMENT = "Java-app1-env"
